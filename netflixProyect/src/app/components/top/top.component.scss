@@ -1,0 +1,32 @@
+
+.top{
+padding:20 px;
+
+h2{
+    text-transform: uppercase;
+}
+.topGallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    &__items{
+        display: flex;
+        align-items: center;
+        p{
+            font-size: 260px;
+            font-weight:bold;
+        
+            position:relative;
+            left: 40px;
+            text-shadow: -4px -4px 0  grey, 4px -4px 0 grey, -4px 4px 0 grey, 4px 4px 0 grey
+        }
+        
+        img{
+            width: 150px;
+            z-index: 1;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;   }
+}
+}
+}

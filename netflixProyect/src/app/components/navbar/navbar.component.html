@@ -1,0 +1,10 @@
+<nav class="navBar">
+    <img src=".\assets\images\LOGO\logo.png"/>
+    <ul class="navBar__links">
+        <li *ngFor="let item of navBar">
+            <a href="{{item.link}}">{{item.name}}</a>
+        </li>
+
+    </ul>
+    <button (click)="changeToDark()">{{theme}}</button>
+</nav>

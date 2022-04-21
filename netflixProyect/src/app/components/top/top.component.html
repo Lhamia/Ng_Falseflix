@@ -1,0 +1,10 @@
+<section class="top">
+    <h2>{{topGallery.title}}</h2>
+    <div class="topGallery">
+      <article *ngFor="let item of topGallery.gallery" class="topGallery__items">
+          <p>{{item.position}}</p>
+          <img src="{{item.image}}" alt="{{item.name}}"/>
+        </article> </div>
+</section>
+
+

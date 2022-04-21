@@ -1,0 +1,8 @@
+<div [ngClass]= "{'dark': isDark == true, 'light': isDark == false}">
+
+<app-navbar [navBar]="navBar" [changeToDark]="changeToDark" [theme]="theme"> </app-navbar>
+<app-top [topGallery]="topGallery"></app-top>
+<app-films [filmsGallery]="cficcion"></app-films>
+<app-films [filmsGallery]="terrorFilms"></app-films>
+
+</div>
